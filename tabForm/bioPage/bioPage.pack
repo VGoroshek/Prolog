@@ -1,0 +1,14 @@
+﻿#include @"tabForm\bioPage\bioPage.ph"
+
+#requires @"tabForm\bioPage\bioPage.ctl"
+% privately used packages
+#include @"pfc\gui\controls\controlSupport\controlSupport.ph"
+#include @"pfc\vpi\vpiDomains\vpiDomains.ph"
+#include @"pfc\resourceIdentifiers.ph"
+
+% private interfaces
+
+% private classes
+
+% implementations
+#include @"tabForm\bioPage\bioPage.pro"

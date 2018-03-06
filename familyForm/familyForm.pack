@@ -1,0 +1,21 @@
+﻿#include @"familyForm\familyForm.ph"
+
+#requires @"familyForm\familyForm.frm"
+% privately used packages
+#include @"pfc\gui\applicationWindow\applicationWindow.ph"
+#include @"tabForm\tabForm.ph"
+#include @"pictControl\pictControl.ph"
+#include @"pfc\string\string.ph"
+#include @"dbrel\dbrel.ph"
+#include @"pfc\gui\controls\listControl\listControl.ph"
+#include @"pfc\gui\controls\button\button.ph"
+#include @"pfc\gui\gui.ph"
+#include @"pfc\vpi\vpiDomains\vpiDomains.ph"
+#include @"pfc\resourceIdentifiers.ph"
+
+% private interfaces
+
+% private classes
+
+% implementations
+#include @"familyForm\familyForm.pro"

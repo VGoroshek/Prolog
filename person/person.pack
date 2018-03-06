@@ -1,0 +1,10 @@
+﻿#include @"person\person.ph"
+
+% privately used packages
+
+% private interfaces
+
+% private classes
+
+% implementations
+#include @"person\person.pro"

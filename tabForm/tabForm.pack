@@ -1,0 +1,20 @@
+﻿#include @"tabForm\tabForm.ph"
+
+#requires @"tabForm\tabForm.frm"
+% privately used packages
+#include @"tabForm\bioPage\bioPage.ph"
+#include @"tabForm\treePage\treePage.ph"
+#include @"dbrel\dbrel.ph"
+#include @"tabForm\infoPage\infoPage.ph"
+#include @"pfc\gui\controls\tabControl\tabControl.ph"
+#include @"pfc\gui\controls\button\button.ph"
+#include @"pfc\gui\gui.ph"
+#include @"pfc\vpi\vpiDomains\vpiDomains.ph"
+#include @"pfc\resourceIdentifiers.ph"
+
+% private interfaces
+
+% private classes
+
+% implementations
+#include @"tabForm\tabForm.pro"

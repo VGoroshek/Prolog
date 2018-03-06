@@ -1,0 +1,79 @@
+﻿
+clauses
+person(1,"Виллам","король").
+person(2,"Риккард","король").
+person(3,"Хостер","король").
+person(4,"Эддард","король").
+person(5,"Бенджен","дозорный").
+person(6,"Робб","принц").
+person(7,"Рикон","принц").
+person(8,"Бран","ворон").
+person(9,"Джон","Сноу").
+person(10,"Эйрион","король").
+person(11,"Эйгон","король").
+person(12,"Кейтлин","королева").
+person(13,"Лиана","княжна").
+person(14,"Санса","принцесса").
+person(15,"Арья","безликая").
+person(16,"Миниса","королева").
+person(17,"Лиза","княжна").
+person(18,"Ходор","конюх").
+parent(1,2).
+parent(2,4).
+parent(2,5).
+parent(2,13).
+parent(4,6).
+parent(4,14).
+parent(4,15).
+parent(4,7).
+parent(4,8).
+parent(12,6).
+parent(12,14).
+parent(12,15).
+parent(12,7).
+parent(12,8).
+parent(13,9).
+parent(10,11).
+parent(11,9).
+parent(3,12).
+parent(16,12).
+parent(3,17).
+parent(16,17).
+male(1).
+male(2).
+male(3).
+male(4).
+male(5).
+male(6).
+male(7).
+male(8).
+male(9).
+male(10).
+male(11).
+male(18).
+female(12).
+female(13).
+female(14).
+female(15).
+female(16).
+female(17).
+spouse(4,12).
+spouse(11,13).
+spouse(3,16).
+birthYear(4,263).
+birthYear(9,283).
+birthYear(8,290).
+deathYear(4,299).
+pict(4, "eddard1.bmp").
+pict(6, "robb1.bmp").
+pict(7, "rickon1.bmp").
+pict(7, "rickon2.bmp").
+pict(8, "bran1.bmp").
+pict(9, "snow1.bmp").
+pict(9, "snow2.bmp").
+pict(14, "sansa1.bmp").
+pict(14, "sansa2.bmp").
+pict(14, "sansa3.bmp").
+pict(15, "aria1.bmp").
+pict(15, "aria2.bmp").
+pict(18, "hodor1.bmp").

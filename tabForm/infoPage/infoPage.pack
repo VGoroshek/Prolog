@@ -1,0 +1,19 @@
+﻿#include @"tabForm\infoPage\infoPage.ph"
+
+#requires @"tabForm\infoPage\infoPage.ctl"
+% privately used packages
+#include @"dbrel\dbrel.ph"
+#include @"pictControl\pictControl.ph"
+#include @"pfc\gui\controls\integerControl\integerControl.ph"
+#include @"pfc\gui\controls\textControl\textControl.ph"
+#include @"pfc\gui\controls\groupBox\groupBox.ph"
+#include @"pfc\gui\controls\controlSupport\controlSupport.ph"
+#include @"pfc\vpi\vpiDomains\vpiDomains.ph"
+#include @"pfc\resourceIdentifiers.ph"
+
+% private interfaces
+
+% private classes
+
+% implementations
+#include @"tabForm\infoPage\infoPage.pro"
